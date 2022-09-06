@@ -9,7 +9,7 @@
 /* Language: css */
 
 #app {
-    border:5px solid #000 ;
+  
     position: absolute;
     top:50%;
     left:50%;
@@ -18,3 +18,13 @@
     height:600px;
 }
 
+.controls {
+    position: absolute;
+   z-index: 10;
+    top:100px;
+    left:50%;
+    transform: translate(-50%); 
+}
+.controls ,select, option {
+  font-size:25px;
+}
